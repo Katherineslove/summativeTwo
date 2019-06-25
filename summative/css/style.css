@@ -23,7 +23,7 @@ body{
 
 #button {
   position: relative;
-  bottom: 310px;
+  bottom: 350px;
   left: 43.5%;
   background-color: white; /* Green */
   border: none;
@@ -38,6 +38,11 @@ body{
   transition-duration: 0.4s;
   font-family: 'Roboto', sans-serif;
   color: black;
+}
+
+#button:hover {
+  background-color: #555555;
+  color: white;
 }
 
 .upwards {
@@ -275,3 +280,81 @@ h1 {
       font-size: 30px;
       text-align: center;
     }
+
+@media screen and (max-width: 1024px) {
+  body{
+      overflow: hidden;
+  }
+
+  #background {
+    width: 150vw;
+    height: 100vh;
+    margin-left: -20%;
+  }
+
+  #banner {
+    position: absolute;
+    top: 36%;
+    left: -1.5%;
+    transition: 1s;
+  }
+
+  #button {
+    bottom: 500px;
+    left: 32%;
+    padding: 15px 32px;
+    font-size: 23px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  #accommodation {
+    left: 5%;
+    position: relative;
+    width: 90%;
+    height: 550px;
+    background-color: #c8c8c8;
+    border-radius: 25px;
+    transition: 1s;
+    margin-bottom: 60px;
+  }
+
+  .upwards {
+    margin-top: -480px;
+    transform: scale(0.7);
+  }
+
+  .moving {
+    margin-top: -960px;
+  }
+
+  h1 {
+    left: 23%;
+  }
+
+  .hotel{
+    width: 200px;
+    height: 60px;
+  }
+
+  .motel{
+    width: 200px;
+    height: 60px;
+  }
+
+  .house{
+    width: 200px;
+    height: 60px;
+  }
+
+  .hostel{
+    width: 200px;
+    height: 60px;
+    }
+
+  .search h1 {
+    top: 26%;
+    left: 30%;
+  }
+}

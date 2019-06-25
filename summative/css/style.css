@@ -147,14 +147,6 @@ h1 {
       font-size: 25px;
     }
 
-    .locDD img {
-      width: 40px;
-      height: 40px;
-      top: 13px;
-      left: 95%;
-      position: absolute;
-    }
-
 .checkIn{
   background-color: white;
   width: 46%;
@@ -239,8 +231,8 @@ h1 {
 }
 
     .travellers img {
-      width: 40px;
-      height: 40px;
+      width: 45px;
+      height: 45px;
       top: 13px;
       left: 10px;
       position: absolute;

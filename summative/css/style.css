@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     overflow: hidden;
 }
@@ -20,31 +21,6 @@ body{
   transition: 1s;
 }
 
-.upwards {
-  margin-top: -390px;
-  transform: scale(0.7);
-}
-
-.start {
-  top: 36%;
-  transition-duration: 1s;
-}
-
-#accommodation {
-  padding: 300px;
-  left: 15%;
-  position: relative;
-  width: 70%;
-  height: 5%;
-  background-color: #c8c8c8;
-  border-radius: 25px;
-  transition: 1s;
-}
-
-.moving {
-  margin-top: -760px;
-}
-
 #button {
   position: relative;
   bottom: 310px;
@@ -60,6 +36,250 @@ body{
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
 }
+
+.upwards {
+  margin-top: -390px;
+  transform: scale(0.7);
+}
+
+.start {
+  top: 36%;
+  transition-duration: 1s;
+}
+
+#accommodation {
+  left: 15%;
+  position: relative;
+  width: 70%;
+  height: 550px;
+  background-color: #c8c8c8;
+  border-radius: 25px;
+  transition: 1s;
+  margin-bottom: 60px;
+}
+
+.moving {
+  margin-top: -760px;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.hotel{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 6%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+.motel{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 5%;
+  left: 27%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+.house{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 16%;
+  left: 51%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+.hostel{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 27%;
+  left: 75%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  }
+
+.location{
+  background-color: white;
+  width: 94.5%;
+  height: 70px;
+  position: relative;
+  bottom: 19%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .location img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .location h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+    .locDD img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 95%;
+      position: absolute;
+    }
+
+.checkIn{
+  background-color: white;
+  width: 46%;
+  height: 70px;
+  position: relative;
+  bottom: 12%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .checkIn img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .checkIn h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+    .checkInDD img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 90%;
+      position: absolute;
+    }
+
+.checkOut{
+  background-color: white;
+  width: 46%;
+  height: 70px;
+  position: relative;
+  bottom: 25%;
+  left: 51.5%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .checkOut img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .checkOut h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+    .checkOutDD img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 89.6%;
+      position: absolute;
+    }
+
+.travellers{
+  background-color: white;
+  width: 94.5%;
+  height: 80px;
+  position: relative;
+  bottom: 18%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .travellers img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .travellers h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+    .travellersDD img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 95%;
+      position: absolute;
+    }
+
+.search{
+  background-color: #808080;
+  width: 35%;
+  height: 70px;
+  position: relative;
+  bottom: 13.5%;
+  left: 33%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .search h1 {
+      position: absolute;
+      top: 20px;
+      left: 35%;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      text-align: center;
+    }

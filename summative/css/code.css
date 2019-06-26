@@ -1,0 +1,434 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+/* body{
+    overflow: hidden;
+} */
+
+/* #banner {
+  position: absolute;
+  top: 36%;
+  left: 20%;
+  transition: 1s;
+} */
+
+/* #button {
+  position: relative;
+  bottom: 350px;
+  left: 43.5%;
+  background-color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+#button:hover {
+  background-color: #555555;
+  color: white;
+} */
+
+.upwards {
+  margin-top: -390px;
+  transform: scale(0.7);
+}
+
+.start {
+  top: 36%;
+  transition-duration: 1s;
+}
+
+#accommodation {
+  left: 15%;
+  position: relative;
+  width: 70%;
+  height: 550px;
+  background-color: #c8c8c8;
+  border-radius: 25px;
+  transition: 1s;
+  margin-bottom: 60px;
+}
+
+.moving {
+  margin-top: -760px;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.hotel{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 6%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+.motel{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 5%;
+  left: 27%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+.house{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 16%;
+  left: 51%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+.hostel{
+  background-color: #808080;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 27%;
+  left: 75%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  }
+
+.location{
+  background-color: white;
+  width: 94.5%;
+  height: 70px;
+  position: relative;
+  bottom: 19%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .location img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .location h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+.checkIn{
+  background-color: white;
+  width: 46%;
+  height: 70px;
+  position: relative;
+  bottom: 12%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .checkIn img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .checkIn h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+    .checkInDD img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 90%;
+      position: absolute;
+    }
+
+.checkOut{
+  background-color: white;
+  width: 46%;
+  height: 70px;
+  position: relative;
+  bottom: 25%;
+  left: 51.5%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .checkOut img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .checkOut h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+    .checkOutDD img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 89.6%;
+      position: absolute;
+    }
+
+.travellers{
+  background-color: white;
+  width: 94.5%;
+  height: 80px;
+  position: relative;
+  bottom: 18%;
+  left: 3%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .travellers img {
+      width: 45px;
+      height: 45px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .travellers h1 {
+      position: absolute;
+      top: 20px;
+      left: 65px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+
+    .travellersDD img {
+      width: 40px;
+      height: 40px;
+      top: 13px;
+      left: 95%;
+      position: absolute;
+    }
+
+.search{
+  background-color: #808080;
+  width: 35%;
+  height: 70px;
+  position: relative;
+  bottom: 13.5%;
+  left: 33%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .search h1 {
+      position: absolute;
+      top: 20px;
+      left: 35%;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      text-align: center;
+    }
+
+@media screen and (max-width: 1024px) {
+  body{
+      overflow: hidden;
+  }
+
+  #background {
+    width: 150vw;
+    height: 100vh;
+    margin-left: -20%;
+  }
+
+  #banner {
+    position: absolute;
+    top: 36%;
+    left: -1.5%;
+    transition: 1s;
+  }
+
+  #button {
+    bottom: 500px;
+    left: 32%;
+    padding: 15px 32px;
+    font-size: 23px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  #accommodation {
+    left: 5%;
+    position: relative;
+    width: 90%;
+    height: 550px;
+    background-color: #c8c8c8;
+    border-radius: 25px;
+    transition: 1s;
+    margin-bottom: 60px;
+  }
+
+  .start {
+    top: 36%;
+    transition-duration: 1s;
+  }
+
+  .upwards {
+    margin-top: -480px;
+    transform: scale(0.7);
+  }
+
+  .moving {
+    margin-top: -960px;
+  }
+
+  h1 {
+    left: 23%;
+  }
+
+  .hotel{
+    width: 200px;
+    height: 60px;
+  }
+
+  .motel{
+    width: 200px;
+    height: 60px;
+  }
+
+  .house{
+    width: 200px;
+    height: 60px;
+  }
+
+  .hostel{
+    width: 200px;
+    height: 60px;
+    }
+
+  .search h1 {
+    top: 26%;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+      #banner {
+        top: 36%;
+        left: -19.5%;
+        transition: 1s;
+        transform: scale(0.7);
+      }
+
+      #button {
+        bottom: 350px;
+        left: 26%;
+      }
+
+      #accommodation {
+        left: 5%;
+        position: relative;
+        width: 90%;
+        height: 550px;
+        background-color: #c8c8c8;
+        border-radius: 25px;
+        transition: 1s;
+        margin-bottom: 60px;
+      }
+
+      .upwards {
+        margin-top: -380px;
+      }
+
+      .moving {
+        margin-top: -760px;
+      }
+
+      h1 {
+        left: 18%;
+      }
+
+      .hotel{
+        width: 150px;
+        height: 60px;
+      }
+
+      .motel{
+        width: 150px;
+        height: 60px;
+      }
+
+      .house{
+        width: 150px;
+        height: 60px;
+      }
+
+      .hostel{
+        width: 150px;
+        height: 60px;
+        }
+
+      .search h1 {
+        top: 26%;
+        left: 30%;
+      }
+
+      .checkInDD img {
+        left: 85%;
+      }
+
+      .checkOutDD img {
+        left: 85%;
+      }
+
+      .travellersDD img {
+        top: 20%;
+        left: 93%;
+      }
+    }

@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    overflow: hidden;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+}
+
+.container {
+  position: relative;
+}
+
+#banner {
+  position: relative;
+  top: 215px;
+  left: 1.6%;
+  transition: 1s;
+}
+
+#button {
+  position: fixed;
+  top: 59%;
+  left: 8%;
+  background-color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+#button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.upwards {
+  margin-top: -197px;
+  transition-duration: 1s;
+  transform: scale(1);
+}
+
+.start {
+  transition-duration: 1s;
+}
+
+#accommodation {
+  left: 5%;
+  position: relative;
+  width: 90%;
+  height: 382px;
+  background-color: #c8c8c8;
+  border-radius: 25px;
+  transition: 1s;
+  top: 492px;
+}
+
+.moving {
+  margin-top: -250px;
+}
+
+h1 {
+  position: absolute;
+  top: 8px;
+  left: 13.5%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.hotel{
+  background-color: #808080;
+  width: 65px;
+  height: 30px;
+  position: relative;
+  top: 5%;
+  left: 2.5%;
+  border-radius: 10px;
+}
+
+.motel{
+  background-color: #808080;
+  width: 65px;
+  height: 30px;
+  position: relative;
+  bottom: 3%;
+  left: 26.6%;
+  border-radius: 10px;
+}
+
+.house{
+  background-color: #808080;
+  width: 65px;
+  height:30px;
+  position: relative;
+  bottom: 10.7%;
+  left: 50.7%;
+  border-radius: 10px;
+}
+
+.hostel{
+  background-color: #808080;
+  width: 65px;
+  height: 30px;
+  position: relative;
+  bottom: 18.7%;
+  left: 74.5%;
+  border-radius: 10px;
+  }
+
+.location{
+  background-color: white;
+  width: 94.5%;
+  height: 45px;
+  position: relative;
+  bottom: 12%;
+  left: 2%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .location img {
+      width: 20px;
+      height: 20px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .location h1 {
+      position: absolute;
+      top: 13px;
+      left: 40px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+    }
+
+.checkIn{
+  background-color: white;
+  width: 94.5%;
+  height: 45px;
+  position: relative;
+  bottom: 7%;
+  left: 2%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .checkIn img {
+      width: 20px;
+      height: 20px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .checkIn h1 {
+      position: absolute;
+      top: 13px;
+      left: 40px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+    }
+
+    .checkInDD img {
+      width: 20px;
+      height: 20px;
+      top: 13px;
+      left: 88%;
+      position: absolute;
+    }
+
+.checkOut{
+  background-color: white;
+  width: 94.5%;
+  height: 45px;
+  position: relative;
+  bottom: 2%;
+  left: 2%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .checkOut img {
+      width: 20px;
+      height: 20px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .checkOut h1 {
+      position: absolute;
+      top: 13px;
+      left: 40px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+    }
+
+    .checkOutDD img {
+      width: 20px;
+      height: 20px;
+      top: 13px;
+      left: 89.6%;
+      position: absolute;
+    }
+
+.travellers{
+  background-color: white;
+  width: 94.5%;
+  height: 45px;
+  position: relative;
+  top: 3%;
+  left: 2%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  }
+
+    .travellers img {
+      width: 25px;
+      height: 25px;
+      top: 13px;
+      left: 10px;
+      position: absolute;
+    }
+
+    .travellers h1 {
+      position: absolute;
+      top: 13px;
+      left: 40px;
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+    }
+
+    .travellersDD img {
+      width: 20px;
+      height: 20px;
+      top: 13px;
+      left: 88%;
+      position: absolute;
+    }
+
+.search{
+  background-color: #808080;
+  width: 35%;
+  height: 30px;
+  position: relative;
+  top: 8.5%;
+  left: 31%;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+    .search h1 {
+      position: absolute;
+      top: 4px;
+      left: 14%;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      text-align: center;
+    }
+
+@media screen and (max-width: 768px) {
+
+  body {
+    background-image: url('img_flowers.jpg');
+  }
+
+  #banner {
+    top: 36%;
+    left: 49%;
+    transition: 1s;
+    transform: scale(1.7);
+  }
+
+  #button {
+    bottom: 350px;
+    left: 26%;
+  }
+
+  .upwards {
+    margin-top: -197px;
+    transition-duration: 1s;
+    transform: scale(1);
+  }
+
+  .start {
+    transition-duration: 1s;
+  }
+
+  #accommodation {
+    left: 5%;
+    position: relative;
+    width: 90%;
+    height: 382px;
+    background-color: #c8c8c8;
+    border-radius: 25px;
+    transition: 1s;
+    top: 927px;
+  }
+
+  .moving {
+    margin-top: -250px;
+  }
+
+.checkIn{
+    background-color: white;
+    width: 46%;
+    height: 60px;
+    position: relative;
+    bottom: 12%;
+    left: 3%;
+    border: 1px solid #808080;
+    border-radius: 10px;
+  }
+
+      .checkIn img {
+        width: 40px;
+        height: 40px;
+        top: 13px;
+        left: 10px;
+        position: absolute;
+      }
+
+      .checkIn h1 {
+        position: absolute;
+        top: 20px;
+        left: 65px;
+        color: #c8c8c8;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+      }
+
+      .checkInDD img {
+        width: 40px;
+        height: 40px;
+        top: 13px;
+        left: 90%;
+        position: absolute;
+      }
+
+ .checkOut{
+    background-color: white;
+    width: 46%;
+    height: 60px;
+    position: relative;
+    bottom: 25%;
+    left: 51.5%;
+    border: 1px solid #808080;
+    border-radius: 10px;
+  }
+
+      .checkOut img {
+        width: 40px;
+        height: 40px;
+        top: 13px;
+        left: 10px;
+        position: absolute;
+      }
+
+      .checkOut h1 {
+        position: absolute;
+        top: 20px;
+        left: 65px;
+        color: #c8c8c8;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+      }
+
+      .checkOutDD img {
+        width: 40px;
+        height: 40px;
+        top: 13px;
+        left: 89.6%;
+        position: absolute;
+      }
+}

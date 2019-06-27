@@ -17,30 +17,40 @@
 
       <div id="accommodation">
 
-        <div class="hotel">
+        <div id="hotel" onclick="changeColour()">
             <h1>HOTEL</h1>
         </div>
 
-        <div class="motel">
+        <div id="motel" onclick="changeColour()">
           <h1>MOTEL</h1>
         </div>
 
-        <div class="house">
+        <div id="house" onclick="changeColour()">
           <h1>HOUSE</h1>
         </div>
 
-        <div class="hostel">
+        <div id="hostel" onclick="changeColour()">
           <h1>HOSTEL</h1>
         </div>
 
-        <div class="location">
+        <div id="location">
           <img src="images/location.png" alt="icon">
-          <h1>e.g Wellington</h1>
+
+          <form action="/action_page.php">
+
+            <input type="text" id="search_term" placeholder="eg. Wellington">
+
+            </form>
         </div>
 
         <div class="checkIn">
           <img src="images/calendar.png" alt="">
-          <h1>Check In</h1>
+          <label for="start"><h1>Check In:</h1></label>
+
+          <!-- <input type="date" id="start" name="trip-start"
+                 value="22-07-2019"
+                 min="Tues 01-01-2019" max="Tues 31-12-2019"> -->
+
           <div class="checkInDD">
             <img src="images/dropDown.png" alt="icon">
           </div>
@@ -62,35 +72,22 @@
           </div>
         </div>
 
-        <div class="search">
+        <div class="search" onclick="empty()">
           <h1>SEARCH</h1>
         </div>
 
       </div>
 
 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrNCqnem6SPV87biSX5ZohCU8Vx6O-hfs&libraries=places"></script>
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrNCqnem6SPV87biSX5ZohCU8Vx6O-hfs&libraries=places&callback=activatePlacesSearch"></script> -->
 
 
+      <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoYVCJg4zrXWBsfeMZ4A_XJ_nwntysdDQ&libraries=places&callback=initAutocomplete"async defer></script> -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <script src="https://maps.googleapis.com/maps/api/place/autocomplete/json?input=1600+Amphitheatre&key=AIzaSyAoYVCJg4zrXWBsfeMZ4A_XJ_nwntysdDQ&sessiontoken=1234567890"></script> -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoYVCJg4zrXWBsfeMZ4A_XJ_nwntysdDQ&libraries=places"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

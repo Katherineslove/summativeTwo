@@ -5,7 +5,7 @@
 }
 
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url("../images/backgroundMobile.png");
     background-repeat: no-repeat;
     position: relative;
@@ -83,7 +83,7 @@ h1 {
   text-align: center;
 }
 
-.hotel{
+#hotel{
   background-color: #808080;
   width: 65px;
   height: 30px;
@@ -93,7 +93,7 @@ h1 {
   border-radius: 10px;
 }
 
-.motel{
+#motel{
   background-color: #808080;
   width: 65px;
   height: 30px;
@@ -103,7 +103,7 @@ h1 {
   border-radius: 10px;
 }
 
-.house{
+#house{
   background-color: #808080;
   width: 65px;
   height:30px;
@@ -113,7 +113,7 @@ h1 {
   border-radius: 10px;
 }
 
-.hostel{
+#hostel{
   background-color: #808080;
   width: 65px;
   height: 30px;
@@ -123,7 +123,7 @@ h1 {
   border-radius: 10px;
   }
 
-.location{
+#location{
   background-color: white;
   width: 94.5%;
   height: 45px;
@@ -134,7 +134,7 @@ h1 {
   border-radius: 10px;
 }
 
-  .location img {
+  #location img {
     width: 20px;
     height: 20px;
     top: 13px;
@@ -142,7 +142,7 @@ h1 {
     position: absolute;
   }
 
-  .location h1 {
+  #location h1 {
     position: absolute;
     top: 13px;
     left: 40px;
@@ -282,6 +282,20 @@ h1 {
         text-align: center;
       }
 
+      label {
+          display: block;
+          font: 1rem 'Fira Sans', sans-serif;
+      }
+
+      input,
+      label {
+        position: relative;
+        top: 5%;
+        width: 94.5%;
+        height: 45px;
+          margin: .4rem 0;
+      }
+
 @media screen and (min-width: 768px) {
 
   body {
@@ -332,40 +346,40 @@ h1 {
     font-size: 22px;
   }
 
-  .hotel{
+  #hotel{
     width: 150px;
     height: 40px;
     top: 4%;
     left: 2.5%;
   }
 
-  .motel{
+  #motel{
     width: 150px;
     height: 40px;
     bottom: 3.5%;
     left: 26.6%;
   }
 
-  .house{
+  #house{
     width: 150px;
     height:40px;
     bottom: 11.1%;
     left: 50.7%;
   }
 
-  .hostel{
+  #hostel{
     width: 150px;
     height: 40px;
     }
 
-  .location{
+  #location{
     width: 94.5%;
     height: 60px;
     bottom: 12%;
     left: 2%;
   }
 
-    .location img {
+    #location img {
       width: 30px;
       height: 30px;
       top: 13px;
@@ -373,7 +387,7 @@ h1 {
       position: absolute;
     }
 
-    .location h1 {
+    #location h1 {
       top: 18px;
       left: 50px;
       font-size: 21px;
@@ -395,7 +409,7 @@ h1 {
     }
 
     .checkIn h1 {
-      top: 18px;
+      top: 10px;
       left: 50px;
       font-size: 21px;
     }
@@ -403,6 +417,21 @@ h1 {
     .checkInDD img {
       left: 92%;
     }
+
+
+          label {
+              display: block;
+              font: 1rem 'Fira Sans', sans-serif;
+          }
+
+          input {
+            position: absolute;
+            top: 5%;
+            left: 15%;
+            width: 94.5%;
+            height: 45px;
+              margin: .4rem 0;
+          }
 
   .checkOut{
     width: 94.5%;
@@ -518,40 +547,40 @@ h1 {
     font-size: 27px;
   }
 
-  .hotel{
+  #hotel{
     width: 220px;
     height: 40px;
     top: 4%;
     left: 2.5%;
   }
 
-  .motel{
+  #motel{
     width: 220px;
     height: 40px;
     bottom: 3.5%;
     left: 26.6%;
   }
 
-  .house{
+  #house{
     width: 220px;
     height:40px;
     bottom: 11.1%;
     left: 50.7%;
   }
 
-  .hostel{
+  #hostel{
     width: 220px;
     height: 40px;
     }
 
-  .location{
+  #location{
     width: 94.5%;
     height: 60px;
     bottom: 12%;
     left: 2%;
   }
 
-    .location img {
+    #location img {
       width: 30px;
       height: 30px;
       top: 13px;
@@ -559,10 +588,27 @@ h1 {
       position: absolute;
     }
 
-    .location h1 {
+    #location h1 {
       top: 18px;
       left: 60px;
       font-size: 24px;
+    }
+
+    input {
+        border-radius: 10px;
+          border: none;
+          left: 51px;
+          top: 0px;
+          position: absolute;
+          outline: none;
+          font-size: 24px;
+    }
+
+    ::placeholder {
+      color: #c8c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      border:none;
     }
 
   .checkIn{
@@ -652,4 +698,5 @@ h1 {
       left: 29%;
       font-size: 25px;
     }
+
 }
